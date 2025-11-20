@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/documentation/" />
+  <Folder Name="/documentation/authentication/">
+    <File Path="authentication.login.http" />
+    <File Path="authentication.register.http" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="EkhayaMeals.Application/EkhayaMeals.Application.csproj" />
+    <Project Path="EkhayaMeals.Contracts/EkhayaMeals.Contracts.csproj" />
+    <Project Path="EkhayaMeals.Domain/EkhayaMeals.Domain.csproj" />
+    <Project Path="EkhayaMeals.Infrastructure/EkhayaMeals.Infrastructure.csproj" />
+    <Project Path="EkhayaMeals.Presentation/EkhayaMeals.Presentation.csproj" />
+  </Folder>
+</Solution>
