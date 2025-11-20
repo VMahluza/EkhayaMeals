@@ -4,15 +4,17 @@
     <File Path="authentication.login.http" />
     <File Path="authentication.register.http" />
   </Folder>
-  <Folder Name="/src/">
+  <Folder Name="/src/" />
+  <Folder Name="/src/API/">
     <Project Path="EkhayaMeals.Presentation/EkhayaMeals.Presentation.csproj" />
   </Folder>
   <Folder Name="/src/Common/" />
   <Folder Name="/src/Modules/" />
   <Folder Name="/src/Modules/Authentication/">
-    <Project Path="EkhayaMeals.Application/EkhayaMeals.Application.csproj" />
-    <Project Path="EkhayaMeals.Contracts/EkhayaMeals.Contracts.csproj" />
-    <Project Path="EkhayaMeals.Domain/EkhayaMeals.Domain.csproj" />
-    <Project Path="EkhayaMeals.Infrastructure/EkhayaMeals.Infrastructure.csproj" />
+    <Project Path="EkhayaMeals.Application/EkhayaMeals.Modules.Authentication.Application.csproj" />
+    <Project Path="EkhayaMeals.Contracts/EkhayaMeals.Modules.Authentication.Contracts.csproj" />
+    <Project Path="EkhayaMeals.Domain/EkhayaMeals.Modules.Authentication.Domain.csproj" />
+    <Project Path="EkhayaMeals.Infrastructure/EkhayaMeals.Modules.Authentication.Infrastructure.csproj" />
   </Folder>
+  <Folder Name="/src/Tests/" />
 </Solution>

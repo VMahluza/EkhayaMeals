@@ -1,6 +1,6 @@
-﻿using EkhayaMeals.Application.Authentication;
-using EkhayaMeals.Contracts.Authentication.Requests;
-using EkhayaMeals.Contracts.Authentication.Responses;
+﻿using EkhayaMeals.Modules.Authentication.Application.Services;
+using EkhayaMeals.Modules.Authentication.Contracts.Authentication.Requests;
+using EkhayaMeals.Modules.Authentication.Contracts.Authentication.Responses;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EkhayaMeals.Presentation.Controllers;

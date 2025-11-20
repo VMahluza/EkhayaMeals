@@ -1,7 +1,7 @@
 ﻿
-using EkhayaMeals.Application.Authentication.Objects;
+using EkhayaMeals.Modules.Authentication.Application.Services.Objects;
 
-namespace EkhayaMeals.Application.Authentication;
+namespace EkhayaMeals.Modules.Authentication.Application.Services;
 
 public class AuthenticationService : IAuthenticationService
 {

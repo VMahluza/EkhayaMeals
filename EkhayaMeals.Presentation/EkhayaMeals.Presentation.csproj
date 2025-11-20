@@ -11,8 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EkhayaMeals.Application\EkhayaMeals.Application.csproj" />
-    <ProjectReference Include="..\EkhayaMeals.Contracts\EkhayaMeals.Contracts.csproj" />
+    <ProjectReference Include="..\EkhayaMeals.Application\EkhayaMeals.Modules.Authentication.Application.csproj" />
+    <ProjectReference Include="..\EkhayaMeals.Contracts\EkhayaMeals.Modules.Authentication.Contracts.csproj" />
+    <ProjectReference Include="..\EkhayaMeals.Infrastructure\EkhayaMeals.Modules.Authentication.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,4 +1,4 @@
-﻿namespace EkhayaMeals.Contracts.Authentication.Requests;
+﻿namespace EkhayaMeals.Modules.Authentication.Contracts.Authentication.Requests;
 public record RegisterRequest(
     string FirstName,
     string LastName,

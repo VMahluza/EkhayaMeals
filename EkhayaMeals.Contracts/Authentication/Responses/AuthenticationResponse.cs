@@ -1,4 +1,4 @@
-﻿namespace EkhayaMeals.Contracts.Authentication.Responses;
+﻿namespace EkhayaMeals.Modules.Authentication.Contracts.Authentication.Responses;
 public record AuthenticationResponse (
     Guid Id,
     string FirstName,
