@@ -6,7 +6,6 @@ public static class DependancyInjection
 {
     public static IServiceCollection AddAuthenticationInfrastructure(this IServiceCollection services)
     {
-        //services.AddScoped<IAuthenticationService, AuthenticationService>();
         services.AddSingleton<IJWTTokenGenerator, JWTTokenGenerator>();
         return services;
     }
