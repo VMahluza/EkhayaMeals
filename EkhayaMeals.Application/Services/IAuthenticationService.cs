@@ -1,4 +1,4 @@
-﻿using EkhayaMeals.Modules.Authentication.Application.Services.Objects;
+﻿using EkhayaMeals.Modules.Authentication.Application.Services.Common;
 
 namespace EkhayaMeals.Modules.Authentication.Application.Services;
 
