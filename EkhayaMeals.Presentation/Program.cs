@@ -8,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 { 
     builder.Services.AddControllers();
     builder.Services.AddAuthenticationApplication();
-    builder.Services.AddAuthenticationInfrastructure();
+    builder.Services.AddAuthenticationInfrastructure(builder.Configuration);
     builder.Services.AddOpenApi();
 }
 
